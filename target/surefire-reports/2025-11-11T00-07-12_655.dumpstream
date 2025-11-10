@@ -1,0 +1,15 @@
+# Created at 2025-11-11T00:07:20.902
+WARNING: A restricted method in java.lang.System has been called
+
+# Created at 2025-11-11T00:07:20.902
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/shari/.m2/repository/org/xerial/sqlite-jdbc/3.40.1.0/sqlite-jdbc-3.40.1.0.jar)
+
+# Created at 2025-11-11T00:07:20.903
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+
+# Created at 2025-11-11T00:07:20.903
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+# Created at 2025-11-11T00:07:20.915
+
+

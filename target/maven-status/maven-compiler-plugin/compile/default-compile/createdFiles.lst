@@ -1,0 +1,12 @@
+com\example\recipes\model\Recipe.class
+com\example\recipes\config\SQLiteDialect.class
+com\example\recipes\config\SQLiteIdentityColumnSupport.class
+com\example\recipes\controller\RecipeController.class
+com\example\recipes\repository\RecipeRepository.class
+com\example\recipes\RecipeApplication.class
+com\example\recipes\config\StartupListener.class
+com\example\recipes\loader\DataLoader.class
+com\example\recipes\util\DbCleaner.class
+com\example\recipes\repository\RecipeSpecification.class
+com\example\recipes\controller\RecipeController$OperatorValue.class
+com\example\recipes\service\RecipeService.class

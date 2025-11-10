@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Recipes</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Recipes</h1>
+
+    <div class="controls">
+      <input id="titleFilter" placeholder="Title contains..." />
+      <input id="cuisineFilter" placeholder="Cuisine..." />
+      <select id="perPage">
+        <option>15</option>
+        <option>25</option>
+        <option>50</option>
+      </select>
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <table id="recipesTable">
+      <thead>
+        <tr><th>DISH</th><th>CUISINE</th><th>RATING</th><th>TOTAL TIME</th><th>SERVES</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="pagination"></div>
+  </div>
+
+  <div id="drawer" class="drawer hidden">
+    <div class="drawer-header">
+      <h2 id="drawerTitle">Recipe</h2>
+      <button id="closeDrawer">Close</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+  </div>
+
+  <script type="module" src ="/app.js"></script>
+</body>
+</html>
